@@ -1,0 +1,49 @@
+body{
+    background-color: azure;
+    font-family: Poiret one;
+    img {
+        width : 200px;
+        height : 200px;
+        }
+}
+.introduction{
+    background-color: blanchedalmond;
+    padding: 32px;
+    margin: 0 auto;
+    width: 800px;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 60px;
+}
+.btn{
+    background-color: palevioletred;
+    color: darkmagenta;
+ display: inline-block;
+ margin-top: 12px;
+}
+h2{
+    color: brown;
+    text-align: center;
+}
+h1{
+    color: lightcoral;
+}
+.presentation{
+    text-align: center;
+    background-color: blanchedalmond;
+    border-radius: 20px;
+    width: 1200px;
+    margin: 0 auto;
+}
+.ingredients{
+    background-color: blanchedalmond;
+    border-radius: 20px; 
+    width: 1200px;
+    margin: 0 auto;
+}
+.preparation{
+    background-color: blanchedalmond;
+    border-radius: 20px;
+    width: 1200px;
+    margin: 0 auto;
+}
