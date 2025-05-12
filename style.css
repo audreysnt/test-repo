@@ -1,49 +1,36 @@
-body{
-    background-color: azure;
-    font-family: Poiret one;
-    img {
-        width : 200px;
-        height : 200px;
-        }
+body {
+  background-color: rgb(234, 235, 235);
+  margin: 0;
 }
-.introduction{
-    background-color: blanchedalmond;
-    padding: 32px;
-    margin: 0 auto;
-    width: 800px;
-    text-align: center;
-    border-radius: 20px;
-    margin-top: 60px;
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 0 24px
 }
-.btn{
-    background-color: palevioletred;
-    color: darkmagenta;
- display: inline-block;
- margin-top: 12px;
+
+.logo {
+  width: 180px;
 }
-h2{
-    color: brown;
-    text-align: center;
+
+.link {
+  text-decoration: none;
+  font-size: 24px;
+  background-color: purple;
+  color: white;
+  padding: 16px 32px;
+  border-radius: 4px;
 }
-h1{
-    color: lightcoral;
+
+.links {
+  display: flex;
+  gap: 24px;
 }
-.presentation{
-    text-align: center;
-    background-color: blanchedalmond;
-    border-radius: 20px;
-    width: 1200px;
-    margin: 0 auto;
-}
-.ingredients{
-    background-color: blanchedalmond;
-    border-radius: 20px; 
-    width: 1200px;
-    margin: 0 auto;
-}
-.preparation{
-    background-color: blanchedalmond;
-    border-radius: 20px;
-    width: 1200px;
-    margin: 0 auto;
+
+.maps, .video {
+  display: flex;
+  justify-content: center;
+  margin-top: 24px;
 }
